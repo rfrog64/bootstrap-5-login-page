@@ -1,0 +1,39 @@
+:root {
+  --dark: #16191c;
+  --dark-x: #1e2126;
+  --light: #fff;
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 300;
+  color: var(--light);
+}
+
+.bg-dark { background-color: var(--dark) !important}
+.bg-dark-x { background-color: var(--dark-x) !important}
+
+
+.form-control, .btn {
+  min-height: 3.2rem;
+  line-height: initial;
+}
+
+
+
+
+.carrusel {
+  background-size: cover;
+}
+
+.img-1 {
+  background-image: url(img/img-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-2 {
+  background-image: url(img/img-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
